@@ -4,7 +4,7 @@ Description:Class to handle webhooks from GitHub
 Date - 2021 June 6
 ********************************************/
 @RestResource(urlMapping='/api/Webhooks/pushDetailsdemo/*')
-global with sharing class WebhookSubscriptionDemo {
+global with sharing class webhookSubscription {
     @HttpPost
     global static void handleNotification() {
 
